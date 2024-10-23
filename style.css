@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+/* shared styles display flex */
+.display-flex{
+    display: flex;
+}
+.header-color{
+    background-color: #111111;
+}
+
+.navbar{
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+}
+.brand{
+    font-weight: 800;
+    font-size: 38px;
+    color: #E6533C;
+    font-style: italic;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 47px;
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+}
+#home {
+    width: 52px;
+    background: #E6533C;
+    list-style: none;
+    margin-right: 47px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+.banner{
+    max-width: 1440px; 
+}
+.banner-text{
+    font-weight: 900;
+    font-size: 78px;
+    color: white;
+    
+}
+.banner-p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF50;
+}
+.button-club{
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    background-color: #E6533C;
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+}
+.button-Download{
+    
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    background: none;
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+}
+.main{
+    background-color: black;
+}
+.banner-habit{
+    max-width: 1440px;
+    margin: 0 auto;
+    /* background-color: black; */
+}
+.habit-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    border: 2px white;
+}
+.habit-text{
+    font-weight: bolder;
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+}
+.habit-p{
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff50;
+    text-align: center;
+}
+/* habit Item image and text */
+.habit-item{
+    display: flex;
+    justify-content: space-around;
+    margin: 58px;
+}
+
+.habit-name{
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+.habit-info{
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff50;
+}
+/* run banner start here */
+.run-banner{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #FFFFFF50;
+    width: 1060px;
+    height: 371px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+
+
+
+}
+.run-title{
+    font-weight: bolder;
+    font-size: 48px;
+    color: #ffffff;
+}
+.run-text{
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff50;
+}
+.run-button{
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    background-color: #E6533C;
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+}
+.run-image{
+    height: 312px;
+    width: 366px;
+    border-radius: 18px;
+}
